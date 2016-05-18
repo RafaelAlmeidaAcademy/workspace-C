@@ -1,5 +1,8 @@
 // Programa que grava e le um arquivo texto
-// FATEC-MC - JCB - 28/10/2015 - Versão 0.0
+// FATEC  - MOGI DAS CRUZES 
+// Modificação: 05.05.2016
+// Autor: RAFAEL ALMEIDA DA SILVA
+
 #include "Meu.h"
 //
 // entry point do programa
@@ -65,7 +68,7 @@ void main(void)
 		//
 		// strcat_s serve para Concatenar dos textos.
 		// strcat_s (VariavelDeTexto1, Texto2 )
-		// VariavelDeTexto1 += Texto2;
+		// VarTexto1 += VarTexto2;
 		strcat_s(cWork, "\r\n");         // Concatena Carriage Return e Line Feed ("\r" desce a linha , "\n" pula uma linha)
 		
 		//-------------------------------------------------------------------------------------------------------------------->

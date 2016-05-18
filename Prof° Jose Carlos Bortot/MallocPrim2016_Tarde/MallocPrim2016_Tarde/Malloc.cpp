@@ -1,5 +1,7 @@
-//Programa que testa a alocação dinâmica de memória (malloc) dynamic memory Allocation
-//Fatec - MG - RAFAEL ALMEIDA - Versão 0.0
+// Programa que testa a alocação dinâmica de memória (malloc) dynamic memory Allocation
+// FATEC  - MOGI DAS CRUZES 
+// Modificação: 05.05.2016
+// Autor: RAFAEL ALMEIDA DA SILVA
 
 #include "Meu.h"
 void ListarVetor(int *ptrVetor, int nQtde, char *ptrCabec);

@@ -1,5 +1,8 @@
 //Programa RAUL GIL com struct e menu do operador
-// FATEC - MC - RAFAEL ALMEIDA - 30/03/2016 - Versão 0.0
+// FATEC  - MOGI DAS CRUZES 
+// Modificação: 30/03/2016
+// Autor: RAFAEL ALMEIDA DA SILVA
+
 
 #include "RaulGill.h"
 //

@@ -1,4 +1,8 @@
 // Programa de [Introdução] a ponteiros
+// FATEC  - MOGI DAS CRUZES 
+// Modificação: 05.05.2016
+// Autor: RAFAEL ALMEIDA DA SILVA
+
 #include "Ponteiros.h"
 
 void main(void)
@@ -32,9 +36,9 @@ void main(void)
 	cout << "**ptrX = " << **ptrX << " *ptrX = "<< *ptrX <<endl;
 	cout << "***ptrZ = " << ***ptrZ << "&ptrX = " << &ptrX << endl;
 
-	***ptrZ = *ptrA + *ptrB;                                                            // Soma os valores apontados pelos ponteiros A e B
+	***ptrZ = *ptrA + *ptrB;                                             // Soma os valores apontados pelos ponteiros A e B
 	cout << "*** ptrZ = " << ***ptrZ << "&ptrX = " << &ptrX << endl;
-	ptrA = vetInteiras;         // ptrA esta apontando para a primeira inteira do Vetor &vetinteiras tbm funcionaria
+	ptrA = vetInteiras;                                                  // ptrA esta apontando para a primeira inteira do Vetor &vetinteiras tbm funcionaria
 
 	cout << "ptrA antes: " << ptrA << endl; 
 	PAUSA;
@@ -107,6 +111,7 @@ void main(void)
 
 }// MAIN
 
+
 // Função que lista o vetor de inteiras
 // Parametros:
 //    Entrada: int *ptrVet - Ponteiro para o vetor 
@@ -132,6 +137,7 @@ void ListaVetor(int *ptrVet, int nQtde, char *ptrCabec)
 
 	PAUSA;
 }
+
 // Função que lista o vetor de inteiras
 // Parametros:
 //    Entrada: int *ptrVet - Ponteiro para o vetor 
@@ -186,3 +192,4 @@ void ListaVetorInversamentePonteiroDireto(int *ptrVet, int nQtde, char *ptrCabec
 
 	PAUSA;
 }
+
